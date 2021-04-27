@@ -2,15 +2,17 @@
 <html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-
     <title>Title</title>
 </head>
 <body>
 <!--view层 模板 直接取model层-->
 <div id="app">
-    <h5>{{msg}}</h5>
-    <span v-bind:title="msg">悬停查看</span>
-
+    <h1 v-if="msg==='hello'">TRUE</h1>
+    <h1 v-else>FALSE</h1>
+    <h1 v-if="type==='A'">A</h1>
+    <h1 v-else-if="type==='B'">B</h1>
+    <h1 v-else-if="type==='C'">C</h1>
+    <h1 v-else>不是ABC其中之一</h1>
 </div>
 
 <!--导入js-->
@@ -20,7 +22,8 @@
         //model层 数据 data el绑定
         el:"#app",
         data:{
-            msg:"hello"
+            msg:"hello",
+            type: 'A'
         }
     });
 </script>

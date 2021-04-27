@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbe19d94-cbfa-41df-9883-e8b5653d7330" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../vue-first/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-first/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-first/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-first/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-first/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-first/chapter-1/demo1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-first/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-first/vue-first.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-first/chapter-1/demo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue-first/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-first/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue-first/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-first/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue-first/chapter-1/demo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-first/chapter-1/demo1.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../vue-first/out/" />
     <ignored path="$PROJECT_DIR$/../vue-first/target/" />
@@ -27,11 +23,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../vue-first/chapter-1/demo1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="475">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="8" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../vue-first/chapter-1/demo2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -54,6 +59,7 @@
       <list>
         <option value="$PROJECT_DIR$/../vue-first/chapter-1/demo1.js" />
         <option value="$PROJECT_DIR$/../vue-first/chapter-1/demo1.html" />
+        <option value="$PROJECT_DIR$/../vue-first/chapter-1/demo2.html" />
       </list>
     </option>
   </component>
@@ -105,6 +111,11 @@
             <path>
               <item name="vue-first" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-first" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-first" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,15 +202,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619513610944</updated>
-      <workItem from="1619513623593" duration="986000" />
+      <workItem from="1619513623593" duration="2096000" />
     </task>
+    <task id="LOCAL-00001" summary="04.27 vue练习">
+      <created>1619514838474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619514838474</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="986000" />
+    <option name="totallyTimeSpent" value="2096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="880" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -236,6 +256,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="04.27 vue练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.27 vue练习" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../vue-first/chapter-1/demo1.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -245,8 +269,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../vue-first/chapter-1/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="475">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="8" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vue-first/chapter-1/demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
