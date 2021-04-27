@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--view层 模板 直接取model层-->
+<div id="app">
+<!--  双向绑定-->
+<!--  <input type="text" v-model="msg">{{msg}}-->
+<!--  <textarea cols="10" rows="10" v-model="msg"></textarea>{{msg}}-->
+  <input type="radio" value="man" checked>男
+  <input type="radio" value="woman">女
+</div>
+
+<!--导入js-->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+<script>
+  var vm = new Vue({
+    //model层 数据 data el绑定
+    el:"#app",
+    data:{
+      msg: ''
+    },
+    methods:{
+      sayHi: function (){
+        alert(this.msg)
+      }
+    }
+  });
+</script>
+</body>
+</html>

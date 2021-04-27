@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--view层 模板 直接取model层-->
+<div id="app">
+<!--  v-for遍历 类似于java foreach-->
+  <li v-for="item in items">
+    {{item.msg}}
+  </li>
+</div>
+
+<!--导入js-->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+<script>
+  var vm = new Vue({
+    //model层 数据 data el绑定
+    el:"#app",
+    data:{
+      items:[
+        {msg: 'weixinzhe'},
+        {msg: 'WEIXINZHE'},
+        {msg: 'hahaha'}
+      ]
+    }
+  });
+</script>
+</body>
+</html>
